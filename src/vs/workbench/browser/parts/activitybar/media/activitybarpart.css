@@ -5,7 +5,9 @@
 
 .monaco-workbench .part.activitybar {
 	width: 56px;
-	height: 100%;
+	height: calc(100% - 24px);
+	margin: 12px;
+	border-radius: 6px;
 }
 
 .monaco-workbench .activitybar.bordered::before {
@@ -31,7 +33,7 @@
 }
 
 .monaco-workbench .activitybar > .content {
-	height: 100%;
+	height: calc(100% + 4px) !important;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
