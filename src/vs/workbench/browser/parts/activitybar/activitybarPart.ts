@@ -71,7 +71,7 @@ export class ActivitybarPart extends Part implements IActivityBarService {
 
 	declare readonly _serviceBrand: undefined;
 
-	private static readonly ACTION_HEIGHT = 48;
+	private static readonly ACTION_HEIGHT = 47;
 	static readonly PINNED_VIEW_CONTAINERS = 'workbench.activity.pinnedViewlets2';
 	private static readonly PLACEHOLDER_VIEW_CONTAINERS = 'workbench.activity.placeholderViewlets';
 	private static readonly HOME_BAR_VISIBILITY_PREFERENCE = 'workbench.activity.showHomeIndicator';

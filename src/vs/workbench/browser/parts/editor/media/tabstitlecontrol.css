@@ -37,6 +37,8 @@
 /* Tabs Container */
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
+	margin-top: 6px;
+	margin-left: 8px;
 	display: flex;
 	height: 35px;
 	scrollbar-width: none; /* Firefox: hide scrollbar */
@@ -60,6 +62,7 @@
 	height: 35px;
 	box-sizing: border-box;
 	padding-left: 10px;
+	border-radius: 6px;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-shrink.has-icon.close-button-right,
@@ -241,6 +244,10 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.close-button-off:not(.dirty) > .tab-close,
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.close-button-off.sticky > .tab-close {
 	display: none; /* hide the close action bar when we are configured to hide it (unless dirty, but always when sticky) */
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab:not(.active) {
+	background-color: transparent !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active > .tab-close .action-label,			/* always show it for active tab */

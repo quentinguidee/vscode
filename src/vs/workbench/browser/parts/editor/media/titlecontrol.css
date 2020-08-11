@@ -31,7 +31,7 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .title-actions .action-label:not(span),
 .monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions .action-label:not(span) {
 	display: flex;
-	height: 35px;
+	height: 47px;
 	min-width: 28px;
 	align-items: center;
 	justify-content: center;

@@ -13,7 +13,7 @@
 }
 
 .monaco-workbench .part.panel .composite.title {
-	height: 41px;
+	height: 47px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -89,8 +89,8 @@
 }
 
 .monaco-workbench .part.panel > .composite.title> .panel-switcher-container > .monaco-action-bar {
-	line-height: 33px; /* matches panel titles in settings */
-	height: 41px;
+	line-height: 51px; /* matches panel titles in settings */
+	height: 47px;
 }
 
 .monaco-workbench .part.panel > .composite.title> .panel-switcher-container > .monaco-action-bar .action-item:first-child {

@@ -218,7 +218,7 @@ export class DebugToolBar extends Themable implements IWorkbenchContribution {
 		if (y === undefined) {
 			y = this.storageService.getNumber(DEBUG_TOOLBAR_Y_KEY, StorageScope.GLOBAL, 0);
 		}
-		const titleAreaHeight = 35;
+		const titleAreaHeight = 47;
 		if ((y < titleAreaHeight / 2) || (y > titleAreaHeight + titleAreaHeight / 2)) {
 			const moveToTop = y < titleAreaHeight;
 			this.setYCoordinate(moveToTop ? 0 : titleAreaHeight);
