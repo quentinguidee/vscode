@@ -378,8 +378,8 @@ export class StatusbarPart extends Part implements IStatusbarService {
 
 	readonly minimumWidth: number = 0;
 	readonly maximumWidth: number = Number.POSITIVE_INFINITY;
-	readonly minimumHeight: number = 22;
-	readonly maximumHeight: number = 22;
+	readonly minimumHeight: number = 32;
+	readonly maximumHeight: number = 32;
 
 	//#endregion
 
