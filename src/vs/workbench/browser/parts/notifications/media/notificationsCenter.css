@@ -10,6 +10,7 @@
 	bottom: 31px;
 	display: none;
 	overflow: hidden;
+	border-radius: 6px;
 }
 
 .monaco-workbench.nostatusbar > .notifications-center {
@@ -25,9 +26,10 @@
 .monaco-workbench > .notifications-center > .notifications-center-header {
 	display: flex;
 	align-items: center;
-	padding-left: 8px;
-	padding-right: 5px;
-	height: 35px;
+	padding-left: 12px;
+	padding-right: 6px;
+	height: 42px;
+	font-weight: 600;
 }
 
 .monaco-workbench > .notifications-center > .notifications-center-header > .notifications-center-header-title {
