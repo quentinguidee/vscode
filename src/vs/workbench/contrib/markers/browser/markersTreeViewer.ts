@@ -103,7 +103,7 @@ const enum TemplateId {
 
 export class VirtualDelegate implements IListVirtualDelegate<TreeElement> {
 
-	static LINE_HEIGHT: number = 22;
+	static LINE_HEIGHT: number = 24;
 
 	constructor(private readonly markersViewState: MarkersViewModel) { }
 

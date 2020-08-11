@@ -60,7 +60,7 @@ import { CancellationTokenSource, CancellationToken } from 'vs/base/common/cance
 
 export class ExplorerDelegate implements IListVirtualDelegate<ExplorerItem> {
 
-	static readonly ITEM_HEIGHT = 22;
+	static readonly ITEM_HEIGHT = 24;
 
 	getHeight(element: ExplorerItem): number {
 		return ExplorerDelegate.ITEM_HEIGHT;

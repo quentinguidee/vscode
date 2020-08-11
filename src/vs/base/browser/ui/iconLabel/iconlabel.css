@@ -19,8 +19,8 @@
 	background-repeat: no-repeat;
 	padding-right: 6px;
 	width: 16px;
-	height: 22px;
-	line-height: inherit !important;
+	height: 24px;
+	line-height: 24px !important;
 	display: inline-block;
 
 	/* fonts icons */
@@ -36,6 +36,7 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	flex: 1;
+	line-height: 24px;
 }
 
 .monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name {

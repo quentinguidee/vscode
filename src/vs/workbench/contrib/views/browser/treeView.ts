@@ -687,7 +687,7 @@ interface ITreeExplorerTemplateData {
 }
 
 class TreeRenderer extends Disposable implements ITreeRenderer<ITreeItem, FuzzyScore, ITreeExplorerTemplateData> {
-	static readonly ITEM_HEIGHT = 22;
+	static readonly ITEM_HEIGHT = 24;
 	static readonly TREE_TEMPLATE_ID = 'treeExplorer';
 
 	private _actionRunner: MultipleSelectionActionRunner | undefined;

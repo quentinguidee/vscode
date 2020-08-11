@@ -42,7 +42,7 @@ import { MenuItemAction, IMenuService, MenuId, registerAction2, Action2, MenuReg
 import { ITelemetryService } from 'vs/platform/telemetry/common/telemetry';
 import { ActionViewItem } from 'vs/base/browser/ui/actionbar/actionViewItems';
 
-const ItemHeight = 22;
+const ItemHeight = 24;
 
 type TreeElement = TimelineItem | LoadMoreCommand;
 
