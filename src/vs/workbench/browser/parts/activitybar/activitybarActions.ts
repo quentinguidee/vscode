@@ -493,9 +493,9 @@ registerThemingParticipant((theme: IColorTheme, collector: ICssStyleCollector) =
 				outline: 1px dashed;
 			}
 
-			.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item:focus:before {
+			/* .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item:focus:before {
 				border-left-color: ${outline};
-			}
+			} */
 
 			.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.active:before,
 			.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.active:hover:before,
